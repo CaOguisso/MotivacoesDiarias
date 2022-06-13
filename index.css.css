@@ -1,0 +1,59 @@
+*{
+    background-color: rgb(255, 200, 118);
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+}
+
+#container {
+    margin-top: 85px;
+    margin-bottom: 50px;
+    width: 85%;
+    max-width: 350px;
+    margin-inline: auto;
+}
+
+img#janela {
+    height: 200px;
+
+}
+h1 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    opacity: 0.9;
+    font-size: 30px;
+}
+
+p {
+    margin-bottom: 20px;
+    opacity: 0.8;
+    font-size: 20px;
+}
+
+button {
+    border: none;
+    background-color: rgb(201, 61, 18);
+    color: white;
+    transition: filter .2s;
+    display: block;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 4px;
+    width: 100%;
+}
+
+button:hover {
+    filter: brightness(1.2);
+    cursor: pointer;
+}
+
+h2#resposta {
+    font-size: 20px;
+    margin-top: 25px;
+    color: brown;
+}
